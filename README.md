@@ -171,6 +171,7 @@ librosa
 
 # Demo
 *這部影片被我壓到5mb，可能有些失真
+[原影片：Cross†Revolution (feat. LyuU) - HyuN - VOEZ](https://www.youtube.com/watch?v=y_9s5tX4UBw&list=RDy_9s5tX4UBw&start_radio=1)
 
 https://github.com/user-attachments/assets/4119a900-e14f-4eee-85f8-34f8a23405de
 
