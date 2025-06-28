@@ -137,6 +137,10 @@ SOUND_WAVES_VISUALIZER/
 │   ├── config.json                # 主設定檔，調整視覺化樣式與播放行為
 │   ├── default_background.jpg     # 預設背景圖（若未使用影片）
 │   ├── JsonLoader.py              # 載入 config.json 與 sound_file.json 的工具模組
+
+https://github.com/user-attachments/assets/fe0aae75-5ef6-406a-9059-4ad35aa313a2
+
+
 │   ├── main.py                    # 主執行檔，載入資料並開始視覺化動畫
 │   ├── RMS_generator.py           # 音訊資料預處理腳本，分析音檔生成聲音強度資訊
 │   └── sound_file.json            # 由 RMS_generator.py 生成的音訊分析資料
@@ -166,3 +170,7 @@ librosa
 ```
 
 # Demo
+*這部影片被我壓到5mb，可能有些失真
+
+https://github.com/user-attachments/assets/4119a900-e14f-4eee-85f8-34f8a23405de
+
