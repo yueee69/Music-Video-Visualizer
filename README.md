@@ -52,11 +52,14 @@ python RMS_generator.py --vl_str value[float]
 此設定可指定**音波的敏感度(強度表現)**
 > 數字越大，分析對音波的「差異感知」越弱(越不敏感)
 
-音波敏感度的計算方式採用 [Generalised Mean（一般化平均）](https://en.wikipedia.org/wiki/Generalized_mean)：
+音波敏感度的計算方式採用 [Generalised Mean（一般化平均）](https://en.wikipedia.org/wiki/Generalized_mean)
+
 $\left(\frac{1}{n}\sum_{i=1}^{n}|x_i|^{s}\right)^{1/s}$
 
 其中
+
 ${x_i}$ 為 音樂的樣本(sample)
+
 ${s}$ 為 輸入的力度 ``--vl_str``
 
 
@@ -137,10 +140,6 @@ SOUND_WAVES_VISUALIZER/
 │   ├── config.json                # 主設定檔，調整視覺化樣式與播放行為
 │   ├── default_background.jpg     # 預設背景圖（若未使用影片）
 │   ├── JsonLoader.py              # 載入 config.json 與 sound_file.json 的工具模組
-
-https://github.com/user-attachments/assets/fe0aae75-5ef6-406a-9059-4ad35aa313a2
-
-
 │   ├── main.py                    # 主執行檔，載入資料並開始視覺化動畫
 │   ├── RMS_generator.py           # 音訊資料預處理腳本，分析音檔生成聲音強度資訊
 │   └── sound_file.json            # 由 RMS_generator.py 生成的音訊分析資料
@@ -171,6 +170,7 @@ librosa
 
 # Demo
 *這部影片被我壓到5mb，可能有些失真
+
 [原影片：Cross†Revolution (feat. LyuU) - HyuN - VOEZ](https://www.youtube.com/watch?v=y_9s5tX4UBw&list=RDy_9s5tX4UBw&start_radio=1)
 
 https://github.com/user-attachments/assets/4119a900-e14f-4eee-85f8-34f8a23405de
