@@ -1,0 +1,17 @@
+{
+  "enable_video": true,
+  "enable_audio": true,
+  "enable_bar": true,
+  "volume": 0.3,
+  "smoothing": 0.4,
+  "amplify": 1.8,
+  "bar_color": [255, 255, 255],
+  "bar_alpha": 150,
+  "bar_count": 60,
+  "window_width": 1200,
+  "window_high": 800,
+  "bar_width": 500,
+  "bar_high": 250,
+  "bar_x": 50,
+  "bar_y": 0
+}
